@@ -8,10 +8,8 @@
 	xmlns:exsl="http://exslt.org/common" extension-element-prefixes="exsl"
 	exclude-result-prefixes="msxml umbraco.library Exslt.ExsltCommon Exslt.ExsltDatesAndTimes Exslt.ExsltMath Exslt.ExsltRegularExpressions Exslt.ExsltStrings Exslt.ExsltSets">
 
-
 <xsl:output method="xml" omit-xml-declaration="yes"/>
 <xsl:include href="string-to-lowercase.xslt" />
-
 
 <xsl:template name="crlfToComma">
 		<xsl:param name="value"/>
